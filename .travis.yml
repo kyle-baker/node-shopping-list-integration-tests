@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: k1pX4QibhtawpVvaU61CnAtD/PXUY3Gb8uRHMSHFF36FaMUKL0DhNW4cuBdLeOpBTYgpbxMCOvl4AbtSi3wya4otuVh/wrZykWwIeJs9jB2HvLOLucx2FBYxNZBIX9/WwuOmjXfGjp3ZZzLZHBa0bKxz3hXJioAtG0wPblkDo2/K1hbbW0bAMyPR2+Ze6TFuzhyih9A0jAthhXv7kytlL2K5q3MkDvWsczTWrPzz/ziC81hJzJm5whLgOilMutABj0FjCorMXS11Pn3DL2PLFdGS4EAWA0SLgw+aWI6cWVeJKudzaKJ6KP1MZLYzyuf0BX+dZAcxtNwxXU0qMJiRtAZqYSM9ViVHUOkYnlRikjfO+JVJa4qSWtz3rvl82UgL6Vw3YbP/Tp3+47RR9HZNmUfXIWgvNs/+jeftp7L27jPmYqzPGDWv3uEvS9u+spB3JZzC+YeqVBft61YoCjT7bz7bYGTpuoq/4pOJlly6LfwYBu5EGjzF8WbkrUBiWzOvkv8xtswx8YMn/eYEhjJUYZ1hhj7uM5h/7jjIOdZaDqtTfL+NAIZMVJ0AgUz606KCkVZDzIFKIE+vbe7dbipjhXvR5n8+2tXb97FGNaYqCaAc0g6HrRcBy0YiPDCCV2r6fcP+PO0Dm4U4kQubR14w5+hwd5qFrwtomEudozpakHc=
+  app: https://dry-atoll-51485.herokuapp.com/ 
+  on:
+    repo: kyle-baker/node-shopping-list-integration-tests
